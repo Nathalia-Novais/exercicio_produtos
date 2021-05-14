@@ -1,0 +1,16 @@
+C:\Users\User1\Desktop\entregas_de_exercicos\produtos\produtos_1\bin\Debug\net5.0\produtos_1.exe
+C:\Users\User1\Desktop\entregas_de_exercicos\produtos\produtos_1\bin\Debug\net5.0\produtos_1.deps.json
+C:\Users\User1\Desktop\entregas_de_exercicos\produtos\produtos_1\bin\Debug\net5.0\produtos_1.runtimeconfig.json
+C:\Users\User1\Desktop\entregas_de_exercicos\produtos\produtos_1\bin\Debug\net5.0\produtos_1.runtimeconfig.dev.json
+C:\Users\User1\Desktop\entregas_de_exercicos\produtos\produtos_1\bin\Debug\net5.0\produtos_1.dll
+C:\Users\User1\Desktop\entregas_de_exercicos\produtos\produtos_1\bin\Debug\net5.0\ref\produtos_1.dll
+C:\Users\User1\Desktop\entregas_de_exercicos\produtos\produtos_1\bin\Debug\net5.0\produtos_1.pdb
+C:\Users\User1\Desktop\entregas_de_exercicos\produtos\produtos_1\obj\Debug\net5.0\produtos_1.csprojAssemblyReference.cache
+C:\Users\User1\Desktop\entregas_de_exercicos\produtos\produtos_1\obj\Debug\net5.0\produtos_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User1\Desktop\entregas_de_exercicos\produtos\produtos_1\obj\Debug\net5.0\produtos_1.AssemblyInfoInputs.cache
+C:\Users\User1\Desktop\entregas_de_exercicos\produtos\produtos_1\obj\Debug\net5.0\produtos_1.AssemblyInfo.cs
+C:\Users\User1\Desktop\entregas_de_exercicos\produtos\produtos_1\obj\Debug\net5.0\produtos_1.csproj.CoreCompileInputs.cache
+C:\Users\User1\Desktop\entregas_de_exercicos\produtos\produtos_1\obj\Debug\net5.0\produtos_1.dll
+C:\Users\User1\Desktop\entregas_de_exercicos\produtos\produtos_1\obj\Debug\net5.0\ref\produtos_1.dll
+C:\Users\User1\Desktop\entregas_de_exercicos\produtos\produtos_1\obj\Debug\net5.0\produtos_1.pdb
+C:\Users\User1\Desktop\entregas_de_exercicos\produtos\produtos_1\obj\Debug\net5.0\produtos_1.genruntimeconfig.cache
