@@ -6,7 +6,7 @@ namespace produtos_1
     {
         static bool voltarmenu = false;
         static string opcao;
-        static int tamanhosarrays = 2;
+        static int tamanhosarrays = 10;
         static int c = 0;
         static string resposta;
         static bool[] promocao = new bool[tamanhosarrays];
