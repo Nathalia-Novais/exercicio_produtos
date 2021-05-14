@@ -6,13 +6,15 @@ namespace produtos_1
     {
         static bool voltarmenu = false;
         static string opcao;
-        static int tamanhosarrays = 1;
+        static int tamanhosarrays = 2;
         static int c = 0;
         static string resposta;
         static bool[] promocao = new bool[tamanhosarrays];
         static string promocaoresposta;
         static string[] nomes = new string[tamanhosarrays];
         static float[] valor = new float[tamanhosarrays];
+
+        static bool repetircadastro = false;
         //  static string[] promocao = new string[tamanhosarrays];
 
 
@@ -77,9 +79,9 @@ namespace produtos_1
         {
                 do
                 {
-                   
-                      
-                    Console.WriteLine("cadastre o seu produto");
+                   if (c < tamanhosarrays)
+                   {
+                       Console.WriteLine("cadastre o seu produto");
 
                     Console.WriteLine("Qual o nome do seu produto?");
                     nomes[c] = Console.ReadLine();
@@ -104,10 +106,24 @@ namespace produtos_1
                     c++;
 
                     Console.WriteLine("Deseja cadastrar outro produto? (s/n)");
-                    resposta = Console.ReadLine().ToLower();
-  
+                    resposta = Console.ReadLine().ToLower(); 
+
+                    if (resposta == "n")
+                    {
+                        repetircadastro = true;
+                    }
+                   }
+
+                   else
+                   {
+                       Console.ForegroundColor = ConsoleColor.Red;
+                       Console.WriteLine("O seu limite de cadastro está cheio ");
+                       repetircadastro = true;
+                       Console.ResetColor();
+                   }
+                  
                    
-                  } while (resposta == "s");
+                  } while (!repetircadastro);
                     
         }
 
@@ -118,9 +134,12 @@ namespace produtos_1
 
             for (var i = 0; i < c; i++)
             {
+                Console.ForegroundColor = ConsoleColor.DarkCyan;
                 Console.WriteLine($@"Nome:{nomes[i]}       
 valor: R${valor[i]}     
-Está em promoção:{promocao[i]}");
+Está em promoção:{promocao[i]}
+");
+  Console.ResetColor();
             }
 
 
